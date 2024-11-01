@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Counter</title>
+    <link rel="stylesheet" href="./CalorieTask.css">
+</head>
+<body>
+
+    <div class="form-section-container">
+
+        <form action="">
+
+            <div class="top-form-container">
+                <div class="top-graphics">
+                    <img src="./Image/Calorie image.png" alt="Calorie image">
+                </div>
+
+                <div class="title-container">
+                    <h1>Calorie Calculator</h1>
+                </div>
+            </div>
+
+            <div class="input-group-container">
+                
+                <div class="input-group">
+                    <label for="walktime">Walking time</label>
+                    <input type="number" name="walktime" id="walktime" placeholder="Enter time in mins">
+                </div>
+
+                <div class="input-group">
+                    <label for="runtime">Running time</label>
+                    <input type="number" name="runtime" id="runtime" placeholder="Enter time in mins">
+                </div>
+
+                <div class="input-group">
+                    <label for="cycletime">Cycling time</label>
+                    <input type="number" name="cycletime" id="cycletime" placeholder="Enter time in mins">
+                </div>
+
+            </div>
+
+            <div class="form-button-container">
+                <button id="button">Calculate My Calories</button>
+            </div>
+
+            <div class="calorie-result-container">
+                <div class="result-container">
+                    <p>YOUR RESULT:</p>
+                </div>
+
+                <div class="figure-calorie-container">
+                    <div class="figure-container">
+                        <h1 id="figure"></h1>
+                    </div>
+    
+                    <div class="calorie-container" id="calories-burned-text">
+                        <p>Calories Burned 🔥</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+
+    <script src="./CalorieTask.js"></script>
+</body>
+</html>
